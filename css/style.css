@@ -79,8 +79,8 @@ h2::before{
 
 #check::before{
     content: '\2713';
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     padding: 3px;
     border: 1px solid #65C1AA ;
     vertical-align: middle;
@@ -90,6 +90,7 @@ h2::before{
 
 ul > li {
     list-style-type: none;
+    margin-top: 20px;
     
 }
 
@@ -110,5 +111,49 @@ ul > li {
 }
 
 /* Prima Section */
+
+/* Seconda Section */
+#false:before {
+    content: ' \2718';
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    border: 1px solid red ;
+    vertical-align: middle;
+    border-radius: 100%;
+    color: red;
+}
+
+.mobile::after{
+    content: 'Mobile';
+    font-size: 13px;
+    display: inline-block;
+    background-color: #F29E33 ;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.recruiting::after{
+    content: 'Recruiting';
+    font-size: 13px;
+    display: inline-block;
+    background-color: #65C1AA  ;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.q-goals::after{
+    content: 'Q1 Goals';
+    font-size: 13px;
+    display: inline-block;
+    background-color: #9C72E4   ;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+/* /Seconda Section */
 
 /* /Main */
