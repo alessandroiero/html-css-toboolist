@@ -62,7 +62,7 @@ main{
 /* /Bottoni */
 
 /* Prima Section */
-section{
+.prima-section{
     margin-top: 5px;
 }
 
@@ -93,21 +93,22 @@ ul > li {
     margin-top: 20px;
     
 }
-
-.text{
-    padding: 10px;
-    display: inline-block;
-
-}
-
-.editorial::after{
-    content: 'Editorial';
+.tags{
     font-size: 13px;
     display: inline-block;
-    background-color: #47ADF1;
     padding: 10px;
     border-radius: 30px;
     color: white;
+}
+.text{
+    padding: 10px;
+    display: inline-block;
+    color: #494d55;
+
+}
+
+.tags.editorial{
+    background-color: #47ADF1;
 }
 
 /* Prima Section */
@@ -124,36 +125,28 @@ ul > li {
     color: red;
 }
 
-.mobile::after{
-    content: 'Mobile';
-    font-size: 13px;
-    display: inline-block;
+.tags.mobile{
     background-color: #F29E33 ;
-    padding: 10px;
-    border-radius: 30px;
-    color: white;
 }
 
-.recruiting::after{
-    content: 'Recruiting';
-    font-size: 13px;
-    display: inline-block;
+.tags.recruiting{
     background-color: #65C1AA  ;
-    padding: 10px;
-    border-radius: 30px;
-    color: white;
 }
 
-.q-goals::after{
-    content: 'Q1 Goals';
-    font-size: 13px;
-    display: inline-block;
+.tags.q-goals{
     background-color: #9C72E4   ;
-    padding: 10px;
-    border-radius: 30px;
-    color: white;
 }
 
 /* /Seconda Section */
 
+/* Terza Section */
+.tags.website{
+   background-color: #D863A1    ;
+}
+
+.tags.sales{
+    background-color: #B0C926    ;
+}
+
+/* /Terza Section */
 /* /Main */
