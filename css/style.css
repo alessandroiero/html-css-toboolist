@@ -37,6 +37,9 @@ main{
 
 }
 /* Bottoni */
+.bottoni{
+    border-radius:15px 15px 0px 0px ;
+}
 .bottoni, section{
     padding: 20px 80px;
 
@@ -81,8 +84,8 @@ h2::before{
     content: '\2713';
     width: 100px;
     height: 100px;
-    padding: 3px;
-    border: 1px solid #65C1AA ;
+    padding: 5px;
+    border: 2px solid #65C1AA ;
     vertical-align: middle;
     border-radius: 100%;
     color: #65C1AA;
@@ -118,8 +121,8 @@ ul > li {
     content: ' \2718';
     width: 80px;
     height: 80px;
-    padding: 3px;
-    border: 1px solid red ;
+    padding: 5px;
+    border: 2px solid red ;
     vertical-align: middle;
     border-radius: 100%;
     color: red;
