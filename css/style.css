@@ -9,7 +9,7 @@ body{
 }
 
 /* Header */
-header{
+header,main{
     background-color: white;
 }
 
@@ -28,3 +28,37 @@ header{
     width: 80px;
 }
 /* /Header */
+
+/* Main */
+main{
+    margin: 30px auto;
+    width: 1500px;
+    border-radius: 5px;
+
+}
+/* Bottoni */
+.bottoni{
+    padding: 20px 80px;
+
+}
+.bottone-task {
+    background-color: #47ADF1;
+    border: none;
+    color: white;
+}
+
+.bottone-section{
+    background-color: white;
+    border: 1px solid #C8CED3;
+    color: #C8CED3;
+}
+
+.bottone-task, .bottone-section{
+    padding: 10px;
+    font-size: 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+/* /Bottoni */
+
+/* /Main */
