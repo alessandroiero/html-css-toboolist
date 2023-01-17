@@ -9,7 +9,7 @@ body{
 }
 
 /* Header */
-header,main{
+header,.bottoni,section{
     background-color: white;
 }
 
@@ -37,7 +37,7 @@ main{
 
 }
 /* Bottoni */
-.bottoni{
+.bottoni, section{
     padding: 20px 80px;
 
 }
@@ -60,5 +60,55 @@ main{
     border-radius: 5px;
 }
 /* /Bottoni */
+
+/* Prima Section */
+section{
+    margin-top: 5px;
+}
+
+h2::before{
+    display: inline-block;
+    vertical-align: middle;
+    margin:0 10px;
+    content: '';
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #333;
+
+}
+
+#check::before{
+    content: '\2713';
+    width: 80px;
+    height: 80px;
+    padding: 3px;
+    border: 1px solid #65C1AA ;
+    vertical-align: middle;
+    border-radius: 100%;
+    color: #65C1AA;
+}
+
+ul > li {
+    list-style-type: none;
+    
+}
+
+.text{
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.editorial::after{
+    content: 'Editorial';
+    font-size: 13px;
+    display: inline-block;
+    background-color: #47ADF1;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+/* Prima Section */
 
 /* /Main */
