@@ -1,3 +1,30 @@
 *{
     font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
 }
+
+body{
+    background-color: #F6F8F9;
+}
+
+/* Header */
+header{
+    background-color: white;
+}
+
+.contenitore-logo,.titolo,.logo{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.contenitore-logo{
+    padding: 30px;
+    font-weight:700;
+    font-size: 30px;
+}
+
+.logo{
+    width: 80px;
+}
+/* /Header */
